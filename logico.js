@@ -81,6 +81,8 @@ function gameOver() {
     var parrafo1 = document.createElement("p")
     var btn1 = document.createElement("button")
     var divGameOver = document.getElementById("end-game-container")
+    document.getElementById("text").style.display = "none";
+    document.getElementById("text").style.display = "none"; 
 
 
     hache1.textContent = "GAME OVER"
